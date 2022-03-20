@@ -1,0 +1,60 @@
+body{
+    background-color: rgb(249, 252, 252);
+    font-family: 'Bungee', cursive;
+    
+}
+
+.vertical{
+    height: 100%;
+    display: flex;
+    background-color: aqua;
+}
+
+#sonuc {
+  text-align: center;
+  border-top-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  font-size: 1rem;
+  font-family: 'Bungee', cursive;
+  
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+p {
+    display: inline-block;
+    font-family: 'Bungee', cursive;
+    color: #0099ff;
+    margin-right: 10px;
+}
+
+input[type=checkbox]{
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+input[type=button]{
+    background-color: #0099ff;
+   
+}
+input[type=number]{
+    outline: none;
+    border: #0099ff solid 5px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    text-align: center;
+    color: #0099ff;
+    font-family: 'Bungee', cursive;
+    font-weight: 100;
+    margin-top: 20px;
+    
+}
+
+svg {
+    z-index: -1;
+}
